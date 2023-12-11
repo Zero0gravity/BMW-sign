@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+.circle{
+    position: relative;
+    background-color:black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    top: 100px;
+    left: 450px;
+
+}
+.inner-circle{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: skyblue;
+    position: relative;
+    top: 65px;
+    left: 65px;
+}
+.B{
+    position: absolute;
+    transform: rotate(293deg);
+    margin-top: 60px;
+    margin-left: 14px;
+    color: white;
+    font-size: 70px;
+    
+
+}
+.M{
+    position:absolute ;
+    color: white;
+    font-size: 70px;
+    margin-left: 120px;
+    
+}
+.W{
+    position: absolute;
+    color:  white;
+    font-size: 70px;
+    transform: rotate(422deg);
+    margin-top: 60px;
+    margin-left: 221px;
+}
+.shape1{
+    height: 85px;
+    width: 85px;
+    border-radius: 100% 0 0 0 ;
+    background-color:skyblue;
+    position: relative;
+    border: black solid;
+    
+}
+.shape2{
+    height: 85px;
+    width: 85px;
+    border-radius: 0 100% 0 0;
+    background-color: white;
+    position: relative;
+    top: -85px;
+    left: 85px;
+    border: black solid;
+
+}
+.shape3{
+    height: 85px;
+    width: 85px;
+    border-radius: 0 0 100% 0;
+    background-color:skyblue;
+    position: relative;
+    top: -85px;
+    left: 85px;
+    border: black solid;
+
+}
+.shape4{
+    height: 85px;
+    width: 85px;
+    border-radius: 0 0 0 100%;
+    background-color: white;
+    position: relative;
+    top: -170px;
+    border: black solid;
+
+}
+    
+    
+
+
